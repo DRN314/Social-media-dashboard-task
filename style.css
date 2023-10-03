@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0px
+  }
+
+#page{
+    background-color: rgb(18, 19, 37); 
+    color: rgba(255, 255, 255, 0.315);
+    height: 100vh;
+     padding: 10px;
+}
+
+  
+  
+  .head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 600px;
+  }
+
+  .socialmedia {
+    /* display: flex; */
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: azure;
+    margin-left: 5vw;
+    flex-direction: row;
+    }
+    .patent{
+      color: aliceblue;
+      font-size: 15px;
+    }
+    .numbers{
+      font-size: 25px;
+      color: azure;
+    }
+    #followers{
+      font-size: 12px;
+      font-family: 'Courier New', Courier, monospace;
+      color: aliceblue;
+    }
+    .combinedtextred{
+      color: red;
+    }
+      
+    .combinedtext{
+      color: green;
+      flex-direction: row;
+      display: flex;
+      flex-direction: row;
+      align-items: first baseline;
+    }
+    
+    #totalfollowers {
+     padding-top: 5px; 
+     font-size: 12px;
+     color: rgb(192, 192, 192);
+    }
+  
+    #darkmode {
+      display: flex;
+      font-family: Arial, Helvetica, sans-serif;
+      justify-content: center;
+      padding-top: 10px;
+      font-size: 12px;
+      color: white;
+    }
+    .cards{
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, Helvetica, sans-serif;
+      align-items: center;
+      background-color: rgb(20, 25, 45);
+      border-top-style: ridge;
+      border-top-color: rgb(49, 120, 252);
+      padding: 20px;
+      border-radius: 3px;
+      flex-wrap: wrap;
+      width: 17vw;
+      /* text-align: center; */
+      justify-content: center;
+
+    }
+    .card {
+      display: flex;
+      /* font-size: 10px; */
+      align-items: flex-start;
+      gap: 15px;
+      padding: 25px;
+      /* width: 20vw ; */
+    }
+.overviewsection{
+  font-size: 20;
+  color: azure;
+  margin-left: 5px;
+}
+    .bottomcards{
+      width: 100vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+.fourcards{
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  background-color: rgb(34, 34, 63);
+  /* border-top-color: rgb(230, 16, 16); */
+  width: 17vw;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+#flexcard{
+  display: flex;
+  background-color:  rgb(34, 34, 63);
+  padding: 10px;
+  width: 200px;
+  border-radius: 0px;
+  height: 75px;
+}
+.pageviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  }
+  
+  #pagetwo {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(192, 192, 192);
+  font-size: 11px;
+  }
+  .numberandicon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: 3px;
+    padding-top: 33px;
+    }
+    
+    .numberstwo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    }
+    
+    .icontwo {
+      display: flex;
+      flex-direction: row;
+      align-items: first baseline;
+      gap: 5px;
+    }
+    
+    #percentage {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(9, 173, 9);
+      font-size: 10px;
+    }
+    #percentagered{
+      color: red;
+    }
